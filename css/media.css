@@ -1,0 +1,304 @@
+@media screen and (min-width: 350px){
+	.conten9{
+		width: 18rem;
+		margin: auto;
+	}
+}
+@media screen and (min-width: 400px){
+	.conten9{
+		width: 20rem;
+		margin: auto;
+	}
+}
+@media screen and (min-width: 700px){
+	.header .pc{
+		font-size: 22rem;
+	}
+	.header .h1{
+		padding-top: 22rem;
+		font-size: 5.5rem;
+	}
+	.header .p{
+		position: relative;
+		width: 90%;
+		margin-left: 6%;
+		font-size: 1rem;
+		padding-top: 1.2rem;
+	}
+	.divheader{
+		flex-flow: initial;
+	}
+	.divheader input{
+		margin-top: 6rem;
+	}
+	.btnheader{
+		margin-top: 6rem;
+	}
+	.header .divimg{
+		width: 50%;
+	}
+	.header .img{
+		top: -3rem;
+		left: 50%;
+	}
+	.sec1{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.cont1{
+		margin-top: 2rem;
+	}
+	.templates{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		margin-bottom: 25rem;
+	}
+	.p21{
+		position: relative;
+		top: -5rem;
+	}
+	.frr{
+		width: 90%;
+		margin: auto;
+		margin-top: 2rem;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.store{
+		width: 13rem;
+	}
+	.store2{
+		margin-top: 0;
+	}
+	.ceros{
+		width: 80%;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 1rem;
+		margin-top: 7rem;
+	}
+	.contp .p{
+		text-align: right;
+	}
+	.sixh .sec6{
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: .5rem;
+	}
+	.sec8{
+		padding: 4rem 0;
+		display: flex;
+		justify-content: space-between;
+	}
+	.sec8 .h1{
+		padding-top: 0;
+	}
+	.sec8 .btn{
+		margin-top: 1rem;
+		margin-bottom: 0rem;
+	}
+	.sec9Con{
+		width: 90%;
+		margin: auto;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: .5rem;
+	}
+	.conten9{
+		width: 100%;
+	}
+	.diez .sec10{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.mensaje{
+		margin-top: 0;
+	}
+	.mensaje .input{
+		margin-top: 0;
+	}
+	.mensaje .input2{
+		margin-bottom: 1.5rem;
+	}
+}
+@media screen and (min-width: 1000px){
+	.nav .ca{
+		font-size: 3.5rem;
+		margin-left: 7%;
+	}
+	.pp1{
+		font-size: 3rem;
+	}
+	.sec2 .h1{
+		font-size: 3rem;
+	}
+	.tri .h1{
+		font-size: 3rem;
+	}
+	.sixh .h1{
+		font-size: 3rem;
+	}
+	.sec8 .h1{
+		font-size: 3rem;
+	}
+	.nueve .h1{
+		font-size: 3rem;
+	}
+	.info .h1{
+		font-size: 3rem;
+	}
+	.nav .ul{
+		display: block;
+		display: flex;
+		flex-flow: row;
+		justify-content: center;
+		align-items: center;
+		width: initial;
+		height: auto;
+		text-align: center;
+		z-index: 15;
+		opacity: 1;
+		pointer-events: auto;
+		position: relative;
+		top: 0;
+		left: 1rem;
+		transform: translateY(0);
+		background-color: transparent;
+		padding-top: 0;
+	}
+	/* jesus */
+	.nav li{
+		padding: 0;
+		background-color: transparent;
+	}
+	.nav .a{
+		display: block;
+		font-size: 1rem;
+		color: white;
+		margin: 0 .5rem;
+
+		/* jesus */
+		background-color: transparent;
+		padding: 0;
+		padding-top: .5rem;
+	}
+	.nav .aaaa{
+		display: block;
+		width: 10rem;
+		margin-top: 1rem;
+		margin-right: 4%;
+		margin-left: 0;
+	}
+	.nav .aaa{
+		display: none;
+	}
+	.nav .ee{
+		display: block;
+		padding: .5rem 1rem;
+		color: white;
+		border: 1px solid rgba(255, 255, 255, .5);
+		border-radius: 1rem 1rem 1rem 0;
+		transition: .5s;
+		text-align: center;
+	}
+	.nav .ee:hover{
+		background-color: rgb(251, 57, 141);
+		border: 1px solid rgb(251, 57, 141);
+	}
+	.nav .despleg{
+		display: none;
+	}
+	.divheader{
+		flex-flow: initial;
+	}
+	.divheader input{
+		margin-left: 5%;
+	}
+	.btnheader{
+		left: 1rem;
+	}
+	.two{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.templates{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		margin-bottom: 25rem;
+	}
+	.p21{
+		position: initial;
+	}
+	.text .p22{
+		margin-bottom: 0;
+	}
+	.ceros{
+		width: 90%;
+		grid-template-columns: repeat(4, 1fr);
+		margin-top: 10rem;
+	}
+	.sec9Con{
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+@media screen and (min-width: 1300px){
+	.nav .ca{
+		font-size: 4rem;
+	}
+	.header .pc{
+		left: 8%;
+	}
+	.header .h1{
+		margin-left: 9%;
+	}
+	.header .p{
+		margin-left: 10%;
+	}
+	.divheader input{
+		left: 5%;
+	}
+	.btnheader{
+		left: 5rem;
+	}
+	.header .divimg{
+		width: 40%;
+	}
+	.header .img{
+		top: -5rem;
+		left: 50%;
+	}
+	.sec1{
+		width: 80%;
+	}
+	.sec2{
+		width: 80%;
+		margin: auto;
+	}
+	.two .img{
+		width: 80%;
+	}
+	.templates{
+		width: 80%;
+		margin: auto;
+		margin-bottom: 25rem;
+	}
+	.video .img{
+		width: 60rem;
+		height: 40rem;
+	}
+	.ceros{
+		width: 80%;
+	}
+	.sixh .sec6{
+		width: 80%;
+		margin: auto;
+	}
+	.sec8{
+		width: 80%;
+	}
+	.diez .sec10{
+		width: 80%;
+		margin: auto;
+	}
+}
